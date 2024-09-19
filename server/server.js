@@ -2,20 +2,20 @@ import express from 'express'
 import cors from 'cors'
 import { MongoClient } from 'mongodb'
 
-const uri = "mongodb+srv://anupama:anupama@amanupa.7dj9s.mongodb.net/?retryWrites=true&w=majority"
+//const uri = "mongodb+srv://anupama:anupama@amanupa.7dj9s.mongodb.net/?retryWrites=true&w=majority"
 
-const { MongoClient, ServerApiVersion } = require("mongodb");
+//const { MongoClient, ServerApiVersion } = require("mongodb");
 
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
-    serverApi: {
-        version: ServerApiVersion.v1,
-        strict: true,
-        deprecationErrors: true,
-    }
-}
-);
+// const client = new MongoClient(uri, {
+//     serverApi: {
+//         version: ServerApiVersion.v1,
+//         strict: true,
+//         deprecationErrors: true,
+//     }
+// }
+// );
 
 async function run() {
     try {
